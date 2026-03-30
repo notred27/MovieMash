@@ -1,8 +1,24 @@
-# Movie Mash
+<div align="center">
+<h1>Movie Mash</h1>
+<p>
+A PHP & MySQL movie review web application with Docker support.
+  <br/>
+  Users can search, filter, and view movie reviews, and join and post polls in clubs.
+  
+</p>
 
-A PHP & MySQL movie review web application with Docker support. Users can search, filter, and view movie reviews, and join and post polls in clubs.
+<img src = "./README/profile.png" style="max-height:260px;max-width:400px;"/>
+
+
+
+</div>
+
 
 ## Features
+
+
+
+
 - Search for movies by title and release year
 - Sort by release date, title, or average rating
 - Pagination for large result sets
@@ -10,6 +26,35 @@ A PHP & MySQL movie review web application with Docker support. Users can search
 - Session-based user authentication
 - Create reviews for movies, and polls about different movie topics
 - Follow your friends to see their recent reviews
+
+
+<table style="border:0px;">
+  <tr>
+    <td>
+
+<img src="./README/search.png" style="max-height:260px;" />
+          
+_Search Page: Can search for movies, clubs, and users._
+          
+</td>
+
+<td>
+
+<img src="./README/club.png" style="max-height:260px;" />
+            
+_Example of a club containing polls and reviews._
+          
+</td>
+          
+  </tr>
+  
+</table>
+
+<img src = "./README/movie_preview.png" style="width:60%;"/>
+
+
+
+
 
 ## Organization
 This repository holds:
@@ -20,7 +65,7 @@ This repository holds:
 
 
 > [!NOTE]
-> Demo database credentials are set in both [docker-compose.yml](docker-compose.yml) and [db.php](www/config/db.php)
+> Demo database credentials are set in both [docker-compose.yml](docker-compose.yml) and [db.php](www/config/db.php).
 
 
 
