@@ -27,7 +27,7 @@ This repository holds:
 ## Setup
 
 > [!Important]
-> This app requires Docker Compose. If you prefer manual setup, you must have PHP and MySQL installed, and should change the variable `$servername` in [db.php](www/config/db.php) to `127.0.0.1`.
+> This app requires Docker Compose. If you prefer manual setup, you must have PHP and MySQL installed, and should change the value of `$servername` in [db.php](www/config/db.php) to "127.0.0.1".
 
 To run a demo of this project:
 
@@ -69,5 +69,5 @@ The dummy data used in this demo can be found at the following sources. The view
 - Random Profile Data: [randomuser.me](https://randomuser.me/)
 
 
-The scripts used to format this data can be found in [/data-formatting](data-formatting).
+The scripts used to parse and format this data can be found in [/data-formatting](data-formatting).
 
